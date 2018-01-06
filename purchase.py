@@ -33,7 +33,6 @@ class Behaviour(object):
     login_url = "https://kyfw.12306.cn/otn/login/init"
     init_my_url = "https://kyfw.12306.cn/otn/index/initMy12306"
     buy = "https://kyfw.12306.cn/otn/confirmPassenger/initDc"
-    login_url = "https://kyfw.12306.cn/otn/login/init"
 
     def __init__(self):
         self.driver_name = 'chrome'
